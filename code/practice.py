@@ -2,19 +2,19 @@
 from PIL import Image,ImageDraw,ImageFont,ImageColor
 
 def add_num_to_pic(picture,number,color='red'):
-    pic =Image.open(picture)  #移出
     num_font = ImageFont.truetype('arial.ttf',100)
-    num_fontcolor = ImageColor.colormap.get('red')
+    num_fontcolor = ImageColor.colormap.get(color)  #设置字体和颜色
 
-    canvas = ImageDraw.Draw(pic)
+    canvas = ImageDraw.Draw(picture)
     width,height = picture.size
-    pos = (width-60,30)
-    pic.text(pos,number, font=num_font,fill=num_fontcolor)
+    pos = (width-60,30)  #不要用绝对的阿拉伯数字，需改动
+    canvas.text(pos,number, font=num_font,fill=num_fontcolor)
     
-    canvas.save('E:\\LSS\\practice\\image.png') #移出
     return pic 
 
 if __name__ == "__main__":
-    pic_path = "E:\\LSS\\practice\\qq.jpg"
+    pic_path = "../doc/qq.jpg"
+    pic =Image.open(pic_path) 
     text = "4"
-    add_num_to_pic(pic_path,text)
+    canvas = add_num_to_pic(pic,text)
+    canvas.save('../doc/image.png') 
