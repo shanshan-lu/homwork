@@ -10,12 +10,13 @@ def open_file_to_dict(filepath):
         dictionary = json.loads(data)  #将文本类型转化为字典 
     return dictionary 
 
-def change_txt_to_xlsx(content:dict):
+def change_txt_to_xlsx(content:dict,name):
     dataframe = pd.DataFrame(content.values(),index = content.keys())
-    xlsx_file = dataframe.to_excel('city.xlsx',header = False)
+    xlsx_file = dataframe.to_excel(name,header = False)
     return xlsx_file
     
 if __name__ =="__main__":
     filepath = "../doc/city.txt"
     content = open_file_to_dict(filepath)
-    change_txt_to_xlsx(content)
+    name = 'city.xlsx'
+    change_txt_to_xlsx(content,name)

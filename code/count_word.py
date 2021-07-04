@@ -2,14 +2,18 @@
 
 import collections 
 
-def count_word_in_file(filepath):
+def open_file(filepath):
     with open(filepath,'r') as f:
         content = f.read().split(" ")
+    return content
+
+def count_word_in_file(content):
     result = collections.Counter(content)
     return result
     
 
 
 if __name__ == "__main__":
-    filepath = "E:\\LSS\\practice\\english.txt"
-    count_word_in_file(filepath)
+    filepath = "../doc/english.txt"
+    content = open_file(filepath)
+    count_word_in_file(content)

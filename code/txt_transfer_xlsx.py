@@ -2,19 +2,25 @@
 import pandas as pd
 import json
 
-
-def transfer_txt_to_xlsx(filepath):
+def open_file_to_dict(filepath):
     with open(filepath,'r',encoding= "utf-8") as f:
-        data = f.read() 
-        convert_line = json.loads(data) #将文本转化为字典
-        result = pd.DataFrame(convert_line.values(),index = convert_line.keys())
-        xlsx_file = result.to_excel('student.xlsx',header = False)
+        data = f.read()
+        dictionary = json.loads(data)  #将文本类型转化为字典 
+    return dictionary 
+
+def change_txt_to_xlsx(content:dict,name):
+    dataframe = pd.DataFrame(content.values(),index = content.keys())
+    xlsx_file = dataframe.to_excel(name,header = False)
+    return xlsx_file
+
     
     
         
 if __name__ =="__main__":
-    filepath = "E:\\LSS\\practice\\student.txt"
-    transfer_txt_to_xlsx(filepath)   
+    filepath = "../doc/student.txt"
+    name = "student.xlsx"
+    content = open_file_to_dict(filepath) 
+    change_txt_to_xlsx(content,name)  
     
     
     
