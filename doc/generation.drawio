@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T13:13:37.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="03yniXRYzsLqD2Mf6JhY" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-13T13:14:21.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="06qivla36BC2UOzrfG9c" version="20.8.20" type="github">
   <diagram name="第 1 页" id="WD2iW0TmA2BiwTpobsJJ">
     <mxGraphModel dx="1114" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,6 +101,15 @@
         </mxCell>
         <mxCell id="ttMrLlS8LR5_MQvA2qy1-37" value="是否还能合并" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="310" y="390" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ttMrLlS8LR5_MQvA2qy1-42" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ttMrLlS8LR5_MQvA2qy1-43" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ttMrLlS8LR5_MQvA2qy1-44" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="310" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
