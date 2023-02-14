@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T14:19:57.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="1cES9wYcJj4-QBmyYVZc" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T14:20:19.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="vEmYpV8NqhSpb3VHC2U2" version="20.8.20" type="github">
   <diagram name="第 1 页" id="SZ0V8DZRQNot3-LsfUy4">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="R6sS8I7fH-COG0r30bE--2" value="逻辑电路" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="100" height="240" as="geometry" />
+          <mxGeometry x="70" y="80" width="100" height="240" as="geometry" />
         </mxCell>
         <mxCell id="R6sS8I7fH-COG0r30bE--3" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="291.25" width="30" height="90" as="geometry" />
@@ -123,7 +123,7 @@
             <mxPoint x="430" y="310" as="sourcePoint" />
             <mxPoint x="200" y="350" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="140" y="420" />
+              <mxPoint x="140" y="410" />
               <mxPoint x="140" y="336" />
             </Array>
           </mxGeometry>
