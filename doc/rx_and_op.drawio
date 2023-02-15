@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T06:36:36.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="fnPZGK-GDbxKTLgrjmfh" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-15T06:42:46.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41" etag="pIVm-akHC_lKOjP_w6wK" version="20.8.20" type="github">
   <diagram name="第 1 页" id="7BWOVIeHfHWRDhxYybXX">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,6 +30,21 @@
         </mxCell>
         <mxCell id="fFmbdHrcv6SZb14ruAzG-15" value="不在同一个March元素内" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="480" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fFmbdHrcv6SZb14ruAzG-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fFmbdHrcv6SZb14ruAzG-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fFmbdHrcv6SZb14ruAzG-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fFmbdHrcv6SZb14ruAzG-19" value="Rx在第一个位置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fFmbdHrcv6SZb14ruAzG-20" value="Rx不在第一个位置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="110" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
