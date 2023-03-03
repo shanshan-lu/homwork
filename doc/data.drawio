@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T13:03:48.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="Ev7cKyQhYjxwqMP1weed" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T13:09:32.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="f-piX69wId8JBwmYMBbn" version="21.0.2" type="github">
   <diagram name="第 1 页" id="pyRIeL_wYj168tuzmC0i">
     <mxGraphModel dx="1114" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,12 @@
         </mxCell>
         <mxCell id="S1hpVAqqMqRMeBG4hrsM-2" value="+march_element_set:List" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="S1hpVAqqMqRMeBG4hrsM-1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S1hpVAqqMqRMeBG4hrsM-9" value="MarchElement" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="82" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S1hpVAqqMqRMeBG4hrsM-11" value="+address_order :String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+operation_sequence:List" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="S1hpVAqqMqRMeBG4hrsM-9">
+          <mxGeometry y="26" width="180" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
